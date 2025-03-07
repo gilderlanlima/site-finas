@@ -1,26 +1,58 @@
-# site-finas
 
-Site simples de finanças utilizando html,css e Bootstrap 5
+# Finans - Controle suas Finanças de Forma Simples
 
+Este é um projeto de site para o Finans, uma ferramenta online para ajudar no controle financeiro pessoal. O site foi criado usando HTML, CSS e Bootstrap, com alguns recursos adicionais como Font Awesome, jQuery e Popper.js.
 
+🔹 **Tecnologias Utilizadas**
 
-# BOOTSTRAP
+- **HTML5 e CSS3**: Estrutura e estilização do site.
+- **Bootstrap 4.1.3**: Framework CSS que ajuda a criar layouts responsivos e modernos com menos código.
+- **Font Awesome**: Biblioteca de ícones para deixar a interface mais interativa.
+- **jQuery**: Facilita a manipulação do DOM e interações no site.
+- **Popper.js**: Necessário para o funcionamento de alguns componentes do Bootstrap.
 
-É um framework front-end de código aberto que facilita o desenvolvimento de interfaces responsivas e modernas para a web. Ele oferece um conjunto de componentes pré-estilizados, como botões, formulários, grids e ícones, além de um sistema de layout flexível baseado no Flexbox e CSS Grid.
+🎨 **Layout e Funcionalidades**
 
-Com o Bootstrap, é possível criar aplicações responsivas rapidamente, sem precisar escrever CSS do zero. Ele também inclui suporte para JavaScript através de plugins nativos baseados em jQuery ou Bootstrap 5, que funciona sem dependência de jQuery.
+O site foi projetado para ser simples e intuitivo, focado em apresentar os benefícios do Finans e incentivar o cadastro de novos usuários.
 
-https://getbootstrap.com/
+📌 **Seções do site**:
 
-Versão utilizada para criação desse projeto: 5.3.3
+- **Navbar**: Menu fixo no topo para navegação.
+- **Home**: Apresentação do Finans com chamada para cadastro.
+- **Saiba mais**: Explicação sobre como categorizar despesas.
+- **Juros**: Informações sobre alertas para evitar cobranças indesejadas.
+- **Recursos**: Lista dos principais benefícios do Finans.
+- **Footer**: Links para redes sociais.
 
-# CDN 
+🚀 **Como Rodar o Projeto**
+
+Caso queira testar o site localmente, siga esses passos:
+
+1. Clone o repositório:
+
 ```bash
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+git clone https://github.com/gilderlanlima/site-finas.git
 ```
 
-```bash
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-```
----
+2. Acesse a pasta do projeto:
 
+```bash
+cd site-finas
+```
+
+3. Abra o arquivo `index.html` no navegador.
+
+Isso já será suficiente para visualizar o site funcionando! Como ele usa apenas HTML, CSS e JS do lado do cliente, não precisa de nenhum servidor para rodar.
+
+📌 **Observações**
+
+- O site usa **Bootstrap 4.1.3**, então algumas classes podem ser diferentes de versões mais novas.
+- Os ícones do **Font Awesome** ajudam a deixar a interface mais moderna.
+- O **jQuery** e o **Popper.js** são carregados via CDN para o funcionamento de alguns componentes do Bootstrap, como dropdowns e tooltips.
+
+Se tiver alguma dúvida ou sugestão, fique à vontade para contribuir! 😉
+
+CONTRIBUAAAAAAAAAAAAAAA
+
+![Imagem de exemplo](https://i.imgur.com/BaoZBQP.png)
+```
